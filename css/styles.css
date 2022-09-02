@@ -1,0 +1,359 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.containerPartOne,
+.containerAboutMe,
+.containerProyects,
+.containerServices,
+#contact  {
+    width: 100%;
+    height: 50%;
+    background-color: #465767;
+    padding-top: 1%;
+}
+
+
+.image {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    min-height: 10vh;
+    min-width: 10vw;
+    max-width: 50vw;
+    max-height: 50vh;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.containerImg,
+.text,
+.containerBottons {
+    /* para centrar contendio*/
+    text-align: center;
+
+
+}
+
+.containerBottons {
+    padding: 80px 0px;
+}
+
+/* The style of the button. */
+.bottonpartOne {
+    display: inline-block;
+    padding: 2%;
+    background: #494873;
+    border-bottom: 5px solid #062a5d;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    font-size: 28px;
+    height: 32px;
+    margin: 10px 20px 0px 0px;
+    padding: 20px 20px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 150px;
+}
+
+/* Changing the background color of the button when the mouse is over it. */
+.bottonpartOne:hover {
+    background: #4F5A7D;
+}
+
+/* Making the button look like it is being pressed. */
+.bottonpartOne:active {
+    box-shadow: 2px 2px 2px #777, 0px 0px 35px 0px #00b7f8;
+    border-bottom: 1px solid #0045A6;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff;
+    transform: translateY(4px);
+    transition: all 0.1s ease 0s;
+    margin: 0px 20px 0px 0px;
+}
+
+/* estilos para los etiquedas directas */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    position: relative;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 5rem;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Hind', sans-serif;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+/* estilos para el formulario */
+/* The style of the form. */
+#contact {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal { 
+    /*float: left;*/
+    max-width: 400px;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.form-control,
+textarea {
+    max-width: 400px;
+    background-color: #465767;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all 0.2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px "Lato", sans-serif;
+    letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+/* para que no ocupe toda la pantalla */
+    max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+    /* para quitar las bolitas de la lista(quitar en general el estilo) */
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+
+.contact-text {
+    font: 300 18px "Lato", sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #3c4a57;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+    color: #000;
+}
+
+.copyright {
+    font: 200 14px "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .direct-contact-container,
+    .form-horizontal {
+        margin: 0 auto;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+
+    .social-media-list li {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+
+    .social-media-list li:after {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+
+    .direct-contact-container,
+    .form-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .form-control,
+    textarea {
+        margin: 0 auto;
+    }
+
+    .name,
+    .email,
+    textarea {
+        width: 280px;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+    }
+
+    .social-media-list {
+        left: 0;
+    }
+
+    .social-media-list li {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 2rem;
+    }
+
+    .social-media-list li:after {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .send-button {
+        width: 99%;
+    }
+}
