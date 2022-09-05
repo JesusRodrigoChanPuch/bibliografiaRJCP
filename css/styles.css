@@ -13,7 +13,7 @@
 .containerAboutMe,
 .containerProyects,
 .containerServices,
-#contact  {
+#contact {
     width: 100%;
     height: 50%;
     background-color: #465767;
@@ -100,7 +100,6 @@ h3 {
     font-family: 'Hind', sans-serif;
     color: #fff;
     margin-top: 20px;
-    font-family: 'Cabin', sans-serif;
     font-size: 1.5rem;
     position: relative;
 }
@@ -126,18 +125,28 @@ h3 {
 
 /* Left contact page */
 .form-horizontal { 
-    /*float: left;*/
+    
     max-width: 400px;
-    font-family: "Lato";
+    font-family: "Cabin";
     font-weight: 400;
 }
 
 .form-control,
 textarea {
-    max-width: 400px;
-    background-color: #465767;
-    color: #fff;
+    /* border-bottom: 10px solid #062a5d;
+    border-radius: 5px; */
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
+    margin-bottom: 3;
+    width: 400px;
+
+}
+
+.containerInput {
+    width: 400px;
+    height: 34px;
+    border: red solid 2px;
 }
 
 .send-button {
@@ -157,7 +166,7 @@ textarea {
 .send-text {
     display: block;
     margin-top: 10px;
-    font: 700 12px "Lato", sans-serif;
+    font: 200 2rem "Cabin", sans-serif;
     letter-spacing: 2px;
 }
 
@@ -167,7 +176,7 @@ textarea {
 
 /* Begin Right Contact Page */
 .direct-contact-container {
-/* para que no ocupe toda la pantalla */
+    /* para que no ocupe toda la pantalla */
     max-width: 400px;
 }
 
@@ -185,7 +194,7 @@ textarea {
 }
 
 .contact-text {
-    font: 300 18px "Lato", sans-serif;
+    font: 300 18px "Hind", sans-serif;
     letter-spacing: 1.9px;
     color: #bbb;
 }
@@ -270,7 +279,7 @@ textarea {
 }
 
 .copyright {
-    font: 200 14px "Oswald", sans-serif;
+    font: 200 14px "Hind", sans-serif;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     text-align: center;
